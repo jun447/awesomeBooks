@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <title>Awesome Books</title>
+</head>
+<body>
+  <header>
+    <div class="header">
+      <h2 class="header-title">Awesome Books Collection</h2>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#" id="navList" onclick="displayAccordingNav('list')">List of Books</a></li>
+          <li><a href="#" id="navNew" onclick="displayAccordingNav('form')">Add New Book</a></li>
+          <li><a href="#" id="navContact" onclick="displayAccordingNav('contact')">Contact US</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+
+
+      <h1 id="title" class="title">Book List</h1>
+
+
+
+    <div id="list" class="list">
+      <ul id="book-list">
+      </ul>
+    </div>
+
+    <div id="form" class="form">
+      <form action="#" class="input-form" method="post">
+        <input id="bookTitle" type="text" placeholder="Title">
+        <input id="bookAuthor" type="text" placeholder="Author">
+        <button id="add-btn" type="button">Add</button>
+      </form>
+    </div>
+
+    <div id="contact" class="contact">
+      <p>
+        My name is DevJun, I'm a web developer and I love to read books. I created this website to share my favorite books with you.
+      </p>
+      <ul>
+        <li>Our email: <a href="#">hotmail@mail.com</a></li>
+      </ul>
+    </div>
+
+  </main>
+  <footer class="footer">
+    <h3>Copyright &copy; 2023</h3>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
